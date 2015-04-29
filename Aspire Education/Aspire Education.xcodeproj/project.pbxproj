@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		518166631AE57BC800330132 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518166621AE57BC800330132 /* AppDelegate.swift */; };
+		518166651AE57BC800330132 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518166641AE57BC800330132 /* ViewController.swift */; };
+		518166681AE57BC800330132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518166661AE57BC800330132 /* Main.storyboard */; };
+		5181666A1AE57BC800330132 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518166691AE57BC800330132 /* Images.xcassets */; };
+		5181666D1AE57BC800330132 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5181666B1AE57BC800330132 /* LaunchScreen.xib */; };
+		518166791AE57BC800330132 /* Aspire_EducationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518166781AE57BC800330132 /* Aspire_EducationTests.swift */; };
+		518166851AE57EC500330132 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 518166841AE57EC500330132 /* SWRevealViewController.m */; };
+		5181668E1AE591BD00330132 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181668D1AE591BD00330132 /* SwiftyJSON.swift */; };
+		518166901AE591C800330132 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181668F1AE591C800330132 /* Article.swift */; };
+		518166921AE5935900330132 /* ArticleTableViewCellClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518166911AE5935900330132 /* ArticleTableViewCellClass.swift */; };
+		518166941AE59E1A00330132 /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518166931AE59E1A00330132 /* ArticleTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		518166731AE57BC800330132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 518166551AE57BC800330132 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5181665C1AE57BC800330132;
+			remoteInfo = "Aspire Education";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5181665D1AE57BC800330132 /* Aspire Education.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aspire Education.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		518166611AE57BC800330132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518166621AE57BC800330132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		518166641AE57BC800330132 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		518166671AE57BC800330132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		518166691AE57BC800330132 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5181666C1AE57BC800330132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		518166721AE57BC800330132 /* Aspire EducationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aspire EducationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		518166771AE57BC800330132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518166781AE57BC800330132 /* Aspire_EducationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aspire_EducationTests.swift; sourceTree = "<group>"; };
+		518166821AE57EC500330132 /* Aspire Education-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aspire Education-Bridging-Header.h"; sourceTree = "<group>"; };
+		518166831AE57EC500330132 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		518166841AE57EC500330132 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		5181668C1AE591BD00330132 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		5181668D1AE591BD00330132 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		5181668F1AE591C800330132 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		518166911AE5935900330132 /* ArticleTableViewCellClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCellClass.swift; sourceTree = "<group>"; };
+		518166931AE59E1A00330132 /* ArticleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5181665A1AE57BC800330132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5181666F1AE57BC800330132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		518166541AE57BC800330132 = {
+			isa = PBXGroup;
+			children = (
+				5181665F1AE57BC800330132 /* Aspire Education */,
+				518166751AE57BC800330132 /* Aspire EducationTests */,
+				5181665E1AE57BC800330132 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5181665E1AE57BC800330132 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5181665D1AE57BC800330132 /* Aspire Education.app */,
+				518166721AE57BC800330132 /* Aspire EducationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5181665F1AE57BC800330132 /* Aspire Education */ = {
+			isa = PBXGroup;
+			children = (
+				518166931AE59E1A00330132 /* ArticleTableViewController.swift */,
+				518166911AE5935900330132 /* ArticleTableViewCellClass.swift */,
+				5181668C1AE591BD00330132 /* SwiftyJSON.h */,
+				5181668F1AE591C800330132 /* Article.swift */,
+				5181668D1AE591BD00330132 /* SwiftyJSON.swift */,
+				518166831AE57EC500330132 /* SWRevealViewController.h */,
+				518166841AE57EC500330132 /* SWRevealViewController.m */,
+				518166621AE57BC800330132 /* AppDelegate.swift */,
+				518166641AE57BC800330132 /* ViewController.swift */,
+				518166661AE57BC800330132 /* Main.storyboard */,
+				518166691AE57BC800330132 /* Images.xcassets */,
+				5181666B1AE57BC800330132 /* LaunchScreen.xib */,
+				518166601AE57BC800330132 /* Supporting Files */,
+				518166821AE57EC500330132 /* Aspire Education-Bridging-Header.h */,
+			);
+			path = "Aspire Education";
+			sourceTree = "<group>";
+		};
+		518166601AE57BC800330132 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				518166611AE57BC800330132 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		518166751AE57BC800330132 /* Aspire EducationTests */ = {
+			isa = PBXGroup;
+			children = (
+				518166781AE57BC800330132 /* Aspire_EducationTests.swift */,
+				518166761AE57BC800330132 /* Supporting Files */,
+			);
+			path = "Aspire EducationTests";
+			sourceTree = "<group>";
+		};
+		518166761AE57BC800330132 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				518166771AE57BC800330132 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5181665C1AE57BC800330132 /* Aspire Education */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5181667C1AE57BC800330132 /* Build configuration list for PBXNativeTarget "Aspire Education" */;
+			buildPhases = (
+				518166591AE57BC800330132 /* Sources */,
+				5181665A1AE57BC800330132 /* Frameworks */,
+				5181665B1AE57BC800330132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aspire Education";
+			productName = "Aspire Education";
+			productReference = 5181665D1AE57BC800330132 /* Aspire Education.app */;
+			productType = "com.apple.product-type.application";
+		};
+		518166711AE57BC800330132 /* Aspire EducationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5181667F1AE57BC800330132 /* Build configuration list for PBXNativeTarget "Aspire EducationTests" */;
+			buildPhases = (
+				5181666E1AE57BC800330132 /* Sources */,
+				5181666F1AE57BC800330132 /* Frameworks */,
+				518166701AE57BC800330132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				518166741AE57BC800330132 /* PBXTargetDependency */,
+			);
+			name = "Aspire EducationTests";
+			productName = "Aspire EducationTests";
+			productReference = 518166721AE57BC800330132 /* Aspire EducationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		518166551AE57BC800330132 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mussayev Temirulan";
+				TargetAttributes = {
+					5181665C1AE57BC800330132 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					518166711AE57BC800330132 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 5181665C1AE57BC800330132;
+					};
+				};
+			};
+			buildConfigurationList = 518166581AE57BC800330132 /* Build configuration list for PBXProject "Aspire Education" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 518166541AE57BC800330132;
+			productRefGroup = 5181665E1AE57BC800330132 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5181665C1AE57BC800330132 /* Aspire Education */,
+				518166711AE57BC800330132 /* Aspire EducationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5181665B1AE57BC800330132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518166681AE57BC800330132 /* Main.storyboard in Resources */,
+				5181666D1AE57BC800330132 /* LaunchScreen.xib in Resources */,
+				5181666A1AE57BC800330132 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518166701AE57BC800330132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		518166591AE57BC800330132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518166921AE5935900330132 /* ArticleTableViewCellClass.swift in Sources */,
+				518166941AE59E1A00330132 /* ArticleTableViewController.swift in Sources */,
+				518166651AE57BC800330132 /* ViewController.swift in Sources */,
+				518166631AE57BC800330132 /* AppDelegate.swift in Sources */,
+				518166901AE591C800330132 /* Article.swift in Sources */,
+				5181668E1AE591BD00330132 /* SwiftyJSON.swift in Sources */,
+				518166851AE57EC500330132 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5181666E1AE57BC800330132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518166791AE57BC800330132 /* Aspire_EducationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		518166741AE57BC800330132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5181665C1AE57BC800330132 /* Aspire Education */;
+			targetProxy = 518166731AE57BC800330132 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		518166661AE57BC800330132 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518166671AE57BC800330132 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5181666B1AE57BC800330132 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5181666C1AE57BC800330132 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5181667A1AE57BC800330132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5181667B1AE57BC800330132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5181667D1AE57BC800330132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Aspire Education/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Aspire Education/Aspire Education-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5181667E1AE57BC800330132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Aspire Education/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Aspire Education/Aspire Education-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		518166801AE57BC800330132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Aspire EducationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aspire Education.app/Aspire Education";
+			};
+			name = Debug;
+		};
+		518166811AE57BC800330132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Aspire EducationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aspire Education.app/Aspire Education";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		518166581AE57BC800330132 /* Build configuration list for PBXProject "Aspire Education" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5181667A1AE57BC800330132 /* Debug */,
+				5181667B1AE57BC800330132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5181667C1AE57BC800330132 /* Build configuration list for PBXNativeTarget "Aspire Education" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5181667D1AE57BC800330132 /* Debug */,
+				5181667E1AE57BC800330132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5181667F1AE57BC800330132 /* Build configuration list for PBXNativeTarget "Aspire EducationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518166801AE57BC800330132 /* Debug */,
+				518166811AE57BC800330132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 518166551AE57BC800330132 /* Project object */;
+}
